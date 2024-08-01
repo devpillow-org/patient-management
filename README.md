@@ -60,8 +60,19 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project is designed to study back-end skills 
+This layer of project is related to development of backend of patient management system.
 
+#### (Functional) Backend Requirements Gathering
+
+As a clinic/hospital professional i want to login into the system with my credentials and:
+1. manage/monitor the patient treatment cicle:
+2. see the patient past procedures, when realized, who relized and where:
+3. store the patient data in a relational database for max 5 years: and
+4. designate patient for specific doctor.
+
+#### (Technical) Backend Requirements Gathering
+1. The backend has to provide a JSON in/out RESTful API: and
+2. The endpoints created has to have unit tests.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
