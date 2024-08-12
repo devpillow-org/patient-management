@@ -79,7 +79,7 @@ As `receptionist` after login with my credentials, i want to be redirect to a pa
 
 **Doctor**
 
-As `doctor` after login with my credentials, i want to see the patients to be attended ordinatin to priority. Want which when click on patient has to be able to see the previous appointments, patient data previous registred. Want when select a patient to be attended the status of patient changed and the same as removed from "waiting attendment" queue, when assist a patient, want that be able to register the patient complaint, write pescription for patient and give a record,  at the end i want that be able to forward the patient to another specialist (department) or end the attendment cicle writing and printing a sicknote.
+As `doctor` after login with my credentials, i want to see the patients to be attended ordinatin to priority. Want which when click on patient has to be able to see the previous appointments, patient data previous registred. Want when select a patient to be attended the status of patient changed and the same as removed from "waiting attendment" queue, when assist a patient, want that be able to register the patient complaint, write pescription for patient and give a record,  at the end i want that be able to forward the patient to another specialist (department) or end the attendment cicle writing and printing a sicknote with a sick ICD if available.
 
 
 #### (Functional) Backend Requirements Gathering
