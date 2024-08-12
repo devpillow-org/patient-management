@@ -91,8 +91,39 @@ As a clinic/hospital professional i want to login into the system with my creden
 4. designate patient for specific doctor.
 
 #### (Technical) Backend Requirements Gathering
-1. The backend has to provide a JSON in/out RESTful API: and
-2. The endpoints created has to have unit tests.
+1. The backend project has to be develop using Python and Django Framework:
+2. Provide a JSON in/out RESTful API:
+3. Created endpoints has to have unit tests for their funcionalities:
+4. The architecture used for the project app has to follow DDD principles with the following folder structure as base: and
+  ```
+  app_name/
+  ├── api/
+  │   ├── __init__.py
+  │   ├── permissions.py
+  │   ├── serializers.py
+  │   ├── urls.py
+  │   └── views/
+  │       └── __init__.py
+  ├── domain/
+  │   ├── __init__.py
+  │   ├── models/
+  │   │   └── __init__.py
+  │   └── services.py
+  ├── infrastructure/
+  │   ├── __init__.py
+  │   ├── interfaces.py
+  │   ├── repositories.py
+  │   └── utils.py
+  ├── tests/
+  │   └── __init__.py
+  ├── migrations/
+  │   └── __init__.py
+  ├── __init__.py
+  ├── admin.py
+  └── apps.py
+  ```
+  5. For coding format and styling the project has to use `black formater`, `flake8`, `typing hints`, `mypy` and `docstring` (for complex methods, function, class, modules).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
