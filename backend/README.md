@@ -67,15 +67,19 @@ As `employee` i want to access the system using my private credentials, and reco
 
 When sucess logged want to see the respective page according to my function.
 
+**Administrator**
+
+As system `administrator` i want after login see a list of employees registred on the system ordered by function, want to see in that page a symbol to register new users, function, departments on the system. I want too that i be able to register new administrator users, designate a employee to specific department and manage work schedule.
+
 
 **Receptionist**
 
-As `receptionist` after login with my credentials, i want to be redirect to a page that can be able to see a queue of patients to be attended to, and in that page want to register new patient into data base or search for patient using name, documents etc.
+As `receptionist` after login with my credentials, i want to be redirect to a page that can be able to see a queue of patients to be attended to, and in that page want to register new patient into data base or search for patient using name or document number. On click in a patient i want that be able to forward the patient to department to be attended to, put then in a queue of specific department.
 
 
 **Doctor**
 
-As `doctor` after login with my credentials, i want to see the patients to be attended ordinatin to priority. Want which when click on patient has to be able to see the previous appointments, patient data registrados. Want when select a patient to be attended the status of patient changed and the same as removed from "waiting attendment" queue, at the end i want that be able to forward the patient to another specialist or end the attendment cicle.
+As `doctor` after login with my credentials, i want to see the patients to be attended ordinatin to priority. Want which when click on patient has to be able to see the previous appointments, patient data previous registred. Want when select a patient to be attended the status of patient changed and the same as removed from "waiting attendment" queue, when assist a patient, want that be able to register the patient complaint, write pescription for patient and give a record,  at the end i want that be able to forward the patient to another specialist (department) or end the attendment cicle writing and printing a sicknote.
 
 
 #### (Functional) Backend Requirements Gathering
