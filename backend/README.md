@@ -67,15 +67,19 @@ As `employee` i want to access the system using my private credentials, and reco
 
 When sucess logged want to see the respective page according to my function.
 
+**Administrator**
+
+As system `administrator` i want after login see a list of employees registred on the system ordered by function, want to see in that page a symbol to register new users, function, departments on the system. I want too that i be able to register new administrator users, designate a employee to specific department and manage work schedule.
+
 
 **Receptionist**
 
-As `receptionist` after login with my credentials, i want to be redirect to a page that can be able to see a queue of patients to be attended to, and in that page want to register new patient into data base or search for patient using name, documents etc.
+As `receptionist` after login with my credentials, i want to be redirect to a page that can be able to see a queue of patients to be attended to, and in that page want to register new patient into data base or search for patient using name or document number. On click in a patient i want that be able to forward the patient to department to be attended to, put then in a queue of specific department.
 
 
 **Doctor**
 
-As `doctor` after login with my credentials, i want to see the patients to be attended ordinatin to priority. Want which when click on patient has to be able to see the previous appointments, patient data registered. Want when select a patient to be attended the status of patient changed and the same as removed from "waiting attendment" queue, at the end i want that be able to forward the patient to another specialist or end the attendment cicle.
+As `doctor` after login with my credentials, i want to see the patients to be attended ordinatin to priority. Want which when click on patient has to be able to see the previous appointments, patient data previous registred. Want when select a patient to be attended the status of patient changed and the same as removed from "waiting attendment" queue, when assist a patient, want that be able to register the patient complaint, write pescription for patient and give a record,  at the end i want that be able to forward the patient to another specialist (department) or end the attendment cicle writing and printing a sicknote with a sick ICD if available.
 
 
 #### (Functional) Backend Requirements Gathering
@@ -87,8 +91,39 @@ As a clinic/hospital professional i want to login into the system with my creden
 4. designate patient for specific doctor.
 
 #### (Technical) Backend Requirements Gathering
-1. The backend has to provide a JSON in/out RESTful API: and
-2. The endpoints created has to have unit tests.
+1. The backend project has to be develop using Python and Django Framework:
+2. Provide a JSON in/out RESTful API:
+3. Created endpoints has to have unit tests for their funcionalities:
+4. The architecture used for the project app has to follow DDD principles with the following folder structure as base: and
+  ```
+  app_name/
+  ├── api/
+  │   ├── __init__.py
+  │   ├── permissions.py
+  │   ├── serializers.py
+  │   ├── urls.py
+  │   └── views/
+  │       └── __init__.py
+  ├── domain/
+  │   ├── __init__.py
+  │   ├── models/
+  │   │   └── __init__.py
+  │   └── services.py
+  ├── infrastructure/
+  │   ├── __init__.py
+  │   ├── interfaces.py
+  │   ├── repositories.py
+  │   └── utils.py
+  ├── tests/
+  │   └── __init__.py
+  ├── migrations/
+  │   └── __init__.py
+  ├── __init__.py
+  ├── admin.py
+  └── apps.py
+  ```
+  5. For coding format and styling the project has to use `black formater`, `flake8`, `typing hints`, `mypy` and `docstring` (for complex methods, function, class, modules).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
