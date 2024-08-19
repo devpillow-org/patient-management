@@ -1,0 +1,12 @@
+site_name: Dev Pillow Corp
+nav:
+  - Home: index.md
+  - About: about.md
+  - 'Projects':
+    - 'Patient Management': 
+      - 'Overview': 'projects/patient-management/index.md'
+      - 'Software requirements': 'projects/patient-management/software_requirements.md'
+
+
+theme:
+  name: material
