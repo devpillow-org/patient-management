@@ -1,0 +1,53 @@
+site_name: Dev Pillow Corp
+nav:
+  - Home: index.md
+  - About us: about.md
+  - Projects:
+    - Patient Management: projects/patient-management/index.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - attr_list
+  - meta
+  - md_in_html
+  - admonition
+
+theme:
+  name: material
+  features:
+    - toc.integrate
+    - navigation.path
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+    - search
+    - mermaid2
+    - glightbox:
+        width: 100%
+        effect: fade
+        draggable: true
