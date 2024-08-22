@@ -16,4 +16,3 @@ resources/.arch-internal-preview.css
 venv/
 .venv/
 venv
-site/*

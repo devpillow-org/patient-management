@@ -46,4 +46,4 @@ Um diagrama de caso de uso representa uma funcionalidade específica do sistema,
 <figure markdows>
 
 ![uc3_latest](../../img/use_cases/requisitos-administration-latest.png "UC3 Administration")
-<figure>
+</figure>
