@@ -17,7 +17,7 @@ Ao final do presente documento teremos uma visão holística de todo o sistema a
 Essa diagramação foi desenvolvida de maneira livre, com o intuido de representar possíveis ações gerais do sistema. 
 <figure markdown>
 
-![sq_latest](../../img/sequencial.png "Sequential Diagram")
+![sq_latest](../img/sequencial.png "Sequential Diagram")
 </figure>
 
 ### Diagrama ER  
@@ -25,7 +25,7 @@ Essa diagramação foi desenvolvida de maneira livre, com o intuido de represent
 O diagrama de entidade-relacionamento representa, por meio de uma abordagem orientada a entidades, os relacionamentos e interações entre essas. 
 <figure markdown>
 
-![latest](../../img/er_diagram/latest.jpg "Er Diagram")
+![latest](../img/er_diagram/latest.jpg "Er Diagram")
 </figure>
 ### Diagramas de Casos de uso 
 
@@ -34,19 +34,19 @@ Um diagrama de caso de uso representa uma funcionalidade específica do sistema,
 #### UC1 – Doctor Flow
 <figure markdown>
 
-![uc1_latest](../../img/use_cases/requisitos-doctor-latest.png "UC1 Doctor")
+![uc1_latest](../img/use_cases/requisitos-doctor-latest.png "UC1 Doctor")
 </figure>
 
 #### UC2 – Receptionist Flow
 <figure markdown>
 
-![uc2_latest](../../img/use_cases/requisitos-patient-latest.png "UC2 Receptionist")
+![uc2_latest](../img/use_cases/requisitos-patient-latest.png "UC2 Receptionist")
 </figure>
 
 #### UC3 – Administrador Flow
 <figure markdown>
 
-![uc3_latest](../../img/use_cases/requisitos-administration-latest.png "UC3 Administration")
+![uc3_latest](../img/use_cases/requisitos-administration-latest.png "UC3 Administration")
 </figure>
 
 [issues-shield]: https://img.shields.io/github/issues/devpillow-org/patient-management?style=for-the-badge
