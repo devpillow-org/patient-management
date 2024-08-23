@@ -1,6 +1,6 @@
 site_name: Patient Management
 nav:
-  - Home: projects/patient-management/index.md
+  - Home: project/patient-management/index.md
 
 markdown_extensions:
   - pymdownx.highlight:
