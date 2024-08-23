@@ -1,9 +1,6 @@
-site_name: Dev Pillow Corp
+site_name: Patient Management
 nav:
-  - Home: index.md
-  - About us: about.md
-  - Projects:
-    - Patient Management: projects/patient-management/index.md
+  - Home: projects/patient-management/index.md
 
 markdown_extensions:
   - pymdownx.highlight:

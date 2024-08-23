@@ -1,4 +1,5 @@
-# About project
+# Patient Management
+[![Issues][issues-shield]][issues-url]
 
 O Projeto consistirá em um sofware gerenciador de ciclo de vida de um paciente dentro de um consultório, envolvendo todas as etapas de uma atendimento, incluindo o início e encerramento do mesmo. 
 
@@ -47,3 +48,6 @@ Um diagrama de caso de uso representa uma funcionalidade específica do sistema,
 
 ![uc3_latest](../../img/use_cases/requisitos-administration-latest.png "UC3 Administration")
 </figure>
+
+[issues-shield]: https://img.shields.io/github/issues/devpillow-org/patient-management?style=for-the-badge
+[issues-url]: https://github.com/devpillow-org/patient-management/issues
