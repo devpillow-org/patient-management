@@ -21,9 +21,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 
-ALLOWED_HOSTS: List[str] = []
-
-
 # Application definition
 DJANGO_APPS = [
     "django.contrib.admin",
