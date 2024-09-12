@@ -1,5 +1,7 @@
-from decouple import config as env
+from environ import Env
 from patient_management.settings.base import *  # noqa
+
+env = Env()
 
 #####################################################################
 #                      SECURITY/DEPLOYMENT                          #
@@ -15,13 +17,4 @@ ALLOWED_HOSTS = ["*"]
 #  https://docs.djangoproject.com/en/5.0/ref/settings/#databases    #
 #####################################################################
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": env("DATABASE_NAME", cast=str),
-        "USER": env("DATABASE_USER", cast=str),
-        "PASSWORD": env("DATABASE_PASSWORD", cast=str),
-        "HOST": env("DATABASE_HOST", cast=str),
-        "PORT": env("DATABASE_PORT", cast=str),
-    }
-}
+DATABASES = {"default": env.db()}
