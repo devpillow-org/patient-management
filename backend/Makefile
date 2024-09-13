@@ -1,3 +1,7 @@
+# .PHONY purpose
+# to avoid a conflict with a file of the same name, and to improve performance
+# with .PHONY, you declare explicit which the target is not a file but a action to be executed.
+
 .PHONY: startapp
 startapp:
 	docker compose run --rm django python manage.py startapp $(app_name)
@@ -24,3 +28,7 @@ startapp:
 		$(app_name)/infrastructure/repositories.py \
 		$(app_name)/infrastructure/utils.py \
 		$(app_name)/tests/__init__.py  \
+
+.PHONY: migrate
+migrate:
+	docker compose run --rm django python manage.py migrate $(app_name)
