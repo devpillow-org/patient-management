@@ -1,5 +1,5 @@
 from environ import Env
-from patient_management.settings.base import *  # noqa
+from patient_management.settings.base import *
 
 env = Env()
 

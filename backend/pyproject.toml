@@ -3,6 +3,7 @@ version = "0.1.0"
 requires-python = ">=3.12"
 
 [tool.ruff]
+line-length = 88
 exclude = [
     ".git",
     ".venv",
@@ -11,10 +12,11 @@ exclude = [
     "venv",
     "./*/migrations/*",
 ]
-line-length = 88
 
 [tool.ruff.lint]
-select = ["E4", "E7", "E9", "F", "B", "D"]
+select = ["E", "F", "B"]
+extend-select = ["E501", "SIM", "DJ", "TCH", "INT"]
+
 fixable = ["ALL"]
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
