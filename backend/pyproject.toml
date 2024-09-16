@@ -28,7 +28,12 @@ dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
 [tool.mypy]
 strict = "true"
+show_error_codes = true
 ignore_missing_imports = "true"
 exclude = [
     "^.*\b(migrations)\b.*$",
 ]
+plugins = ["mypy_django_plugin.main"]
+
+[tool.django-stubs]
+django_settings_module = "patient_management.settings.development"
