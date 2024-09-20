@@ -19,3 +19,4 @@ repos:
     hooks:
     -   id: mypy
         exclude: ^.*\b(migrations)\b.*$
+        args: [--strict, --ignore-missing-imports]
