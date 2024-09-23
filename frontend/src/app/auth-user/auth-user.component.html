@@ -1,0 +1,25 @@
+<article>
+    <section class="center-login">
+        <h2 class="section-heading">Loging with your account</h2>
+        <form [formGroup]="loginForm" (submit)="submitApplication()">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" formControlName="name">
+        
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input id="password" type="text" formControlName="password">
+            </div>
+            <div>
+                <input type="checkbox"> Remember
+            </div>
+            <button type="submit" class="primary">Apply now</button>
+        </form>
+    </section>
+    <section class="mask-group">
+        <p>Welcome!</p>
+        <p>Fill up personal information and start journey with us</p>
+    </section>    
+
+</article>

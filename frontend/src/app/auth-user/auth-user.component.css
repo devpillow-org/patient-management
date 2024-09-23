@@ -1,0 +1,23 @@
+/* Rectangle 1 */
+.center-login {
+    position: absolute;
+    width: 1294px;
+    height: 728px;
+    left: 313px;
+    top: 164px;
+
+    background: linear-gradient(127.75deg, #FFFFFF 25.26%, #E7E7E7 86.9%);
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+
+}
+
+.mask-group {
+
+    position: absolute;
+    width: 608px;
+    height: 728px;
+    left: 1001px;
+    top: 164px;
+    background-image: url('../static/custon_side_2.png');
+}
