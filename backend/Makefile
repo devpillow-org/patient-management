@@ -36,6 +36,10 @@ startapp:
 migrate:
 	docker compose run --rm django python manage.py migrate $(app_name)
 
+.PHONY: migrations
+migrations:
+	docker compose run --rm django python manage.py makemigrations $(app_name)
+
 .PHONY: show_urls
 show_urls:
 	docker compose run --rm django python manage.py show_urls
